@@ -1,11 +1,10 @@
 ---
 {
-  "type": "blog",
-  "author": "Nashville Tenants Union",
-  "title": "Mission Statement",
-  "description": "One big Nashville union.",
-  "image": "images/article-covers/mission-banner.png",
-  "published": "2022-06-26",
+  "authors": [ "Union" ],
+  "title": "Nashville Tenants Union | Mission Statement",
+  "description": "The mission of the union.",
+  "image": "/article-covers/mission-banner.png",
+  "published": "2022-07-26",
 }
 ---
 

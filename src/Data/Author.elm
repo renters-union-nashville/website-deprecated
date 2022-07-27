@@ -1,48 +1,19 @@
-module Data.Author exposing (Author, all, decoder, view)
+module Data.Author exposing (Author, union)
 
-import Element exposing (Element)
-import Html.Attributes as Attr
-import Json.Decode as Decode exposing (Decoder)
-import List.Extra
-import Pages
-import Pages.ImagePath as ImagePath exposing (ImagePath)
+import Cloudinary
+import Pages.Url exposing (Url)
 
 
 type alias Author =
     { name : String
-    , avatar : ImagePath Pages.PathKey
+    , avatar : Url
     , bio : String
     }
 
 
-all : List Author
-all =
-    [ { name = "Nashville Tenants Union"
-      , avatar = Pages.images.author.union
-      , bio = "One big Nashville union."
-      }
-    ]
-
-
-decoder : Decoder Author
-decoder =
-    Decode.string
-        |> Decode.andThen
-            (\lookupName ->
-                case List.Extra.find (\currentAuthor -> currentAuthor.name == lookupName) all of
-                    Just author ->
-                        Decode.succeed author
-
-                    Nothing ->
-                        Decode.fail ("Couldn't find author with name " ++ lookupName ++ ". Options are " ++ String.join ", " (List.map .name all))
-            )
-
-
-view : List (Element.Attribute msg) -> Author -> Element msg
-view attributes author =
-    Element.image
-        (Element.width (Element.px 70)
-            :: Element.htmlAttribute (Attr.class "avatar")
-            :: attributes
-        )
-        { src = ImagePath.toString author.avatar, description = author.name }
+union : Author
+union =
+    { name = "Nashville Tenants Union"
+    , avatar = Cloudinary.urlSquare "author/union.png" Nothing 140
+    , bio = "One big Nashville union."
+    }

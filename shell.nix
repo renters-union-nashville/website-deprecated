@@ -16,5 +16,6 @@ in pkgs.mkShell {
     # the path to the certificate bundle.
     export SSL_CERT_FILE=${caBundle}
     export NIX_SSL_CERT_FILE=${caBundle}
+    set -o allexport; source .env; set +o allexport
   '';
 }
