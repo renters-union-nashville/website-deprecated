@@ -1,4 +1,4 @@
 ---
-title: elm-pages blog
+title: Nashville Tenants Union Blog
 type: blog-index
 ---

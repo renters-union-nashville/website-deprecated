@@ -1,6 +1,6 @@
 module Layout exposing (view)
 
-import DocumentSvg
+import Logo
 import Element exposing (Element)
 import Element.Background
 import Element.Border
@@ -55,8 +55,8 @@ header currentPath =
             , Element.Background.gradient
                 { angle = 0.2
                 , steps =
-                    [ Element.rgb255 0 242 96
-                    , Element.rgb255 5 117 230
+                    [ Palette.color.primary
+                    , Element.rgb255 255 255 255 
                     ]
                 }
             ]
@@ -73,14 +73,13 @@ header currentPath =
                 { url = "/"
                 , label =
                     Element.row [ Font.size 30, Element.spacing 16 ]
-                        [ DocumentSvg.view
-                        , Element.text "elm-pages-starter"
+                        [ Logo.light
+                        , Element.text "Nashville Tenants Union"
                         ]
                 }
             , Element.row [ Element.spacing 15 ]
-                [ elmDocsLink
+                [ highlightableLink currentPath Pages.pages.blog.directory "Blog"
                 , githubRepoLink
-                , highlightableLink currentPath Pages.pages.blog.directory "Blog"
                 ]
             ]
         ]
@@ -113,24 +112,12 @@ highlightableLink currentPath linkDirectory displayName =
 githubRepoLink : Element msg
 githubRepoLink =
     Element.newTabLink []
-        { url = "https://github.com/dillonkearns/elm-pages"
+        { url = "https://github.com/nashville-tenants-union/website"
         , label =
             Element.image
                 [ Element.width (Element.px 22)
                 , Font.color Palette.color.primary
                 ]
-                { src = ImagePath.toString Pages.images.github, description = "Github repo" }
+                { src = ImagePath.toString Pages.images.github, description = "Code" }
         }
 
-
-elmDocsLink : Element msg
-elmDocsLink =
-    Element.newTabLink []
-        { url = "https://package.elm-lang.org/packages/dillonkearns/elm-pages/latest/"
-        , label =
-            Element.image
-                [ Element.width (Element.px 22)
-                , Font.color Palette.color.primary
-                ]
-                { src = ImagePath.toString Pages.images.elmLogo, description = "Elm Package Docs" }
-        }

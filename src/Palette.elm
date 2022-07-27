@@ -10,8 +10,8 @@ color :
     , secondary : Element.Color
     }
 color =
-    { primary = Element.rgb255 5 117 230
-    , secondary = Element.rgb255 0 242 96
+    { primary = Element.rgb255 255 22 22
+    , secondary = Element.rgb255 0 87 87
     }
 
 

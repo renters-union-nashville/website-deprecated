@@ -1,33 +1,21 @@
-# elm-pages-starter
+# Nashville Tenants Union Website
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dillonkearns/elm-pages-starter)
+Under construction.
 
-This is an example repo to get you up and running with `elm-pages`.
+## Development instructions
 
-The entrypoint file is `index.js`. That file imports `src/Main.elm`. The `content` folder is turned into your static pages. The rest is mostly determined by logic in the Elm code! Learn more with the resources below.
-
-## Setup Instructions
-Click "Use this template" on this Github page to fork the repo.
-
-Or git clone it:
+Git clone it:
 
 ```
-git clone git@github.com:dillonkearns/elm-pages-starter.git
+git clone git@github.com:nashville-tenants-union/website.git
 ```
 
 Then install and run the dev server
 
 ```
-cd elm-pages-starter
+cd nashville-tenants-union
 npm install
 npm start # starts a local dev server using `elm-pages develop`
 ```
 
 From there you can tweak the `content` folder or change the `src/Main.elm` file.
-
-
-## Learn more about `elm-pages`
-
-- Documentation site: https://elm-pages.com
-- [Elm Package docs](https://package.elm-lang.org/packages/dillonkearns/elm-pages/latest/)
-- [`elm-pages` blog](https://elm-pages.com/blog)

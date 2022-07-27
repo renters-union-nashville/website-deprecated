@@ -32,13 +32,13 @@ manifest =
     , categories = [ Pages.Manifest.Category.education ]
     , displayMode = Manifest.Standalone
     , orientation = Manifest.Portrait
-    , description = "elm-pages-starter - A statically typed site generator."
+    , description = "Nashville Tenants Union"
     , iarcRatingId = Nothing
-    , name = "elm-pages-starter"
+    , name = "Nashville Tenants Union"
     , themeColor = Just Color.white
     , startUrl = pages.index
-    , shortName = Just "elm-pages-starter"
-    , sourceIcon = images.iconPng
+    , shortName = Just "Nashville Tenants Union"
+    , sourceIcon = images.logos.logoLight
     , icons = []
     }
 
@@ -187,7 +187,7 @@ pageView model siteMetadata page viewForPage =
             }
 
         Metadata.BlogIndex ->
-            { title = "elm-pages blog"
+            { title = "Nashville Tenants Union Blog"
             , body =
                 [ Element.column [ Element.padding 20, Element.centerX ] [ Index.view siteMetadata ]
                 ]
@@ -218,10 +218,10 @@ head metadata =
                 Metadata.Page meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Nashville Tenants Union"
                         , image =
-                            { url = images.iconPng
-                            , alt = "elm-pages logo"
+                            { url = images.logos.logoLight
+                            , alt = "Nashville Tenants Union logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
@@ -234,7 +234,7 @@ head metadata =
                 Metadata.Article meta ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages starter"
+                        , siteName = "Nashville Tenants Union Article"
                         , image =
                             { url = meta.image
                             , alt = meta.description
@@ -271,16 +271,16 @@ head metadata =
                     in
                     Seo.summary
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages-starter"
+                        , siteName = "Nashville Tenants Union"
                         , image =
                             { url = meta.avatar
-                            , alt = meta.name ++ "'s elm-pages articles."
+                            , alt = meta.name ++ "'s articles."
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = meta.bio
                         , locale = Nothing
-                        , title = meta.name ++ "'s elm-pages articles."
+                        , title = meta.name ++ "'s articles."
                         }
                         |> Seo.profile
                             { firstName = firstName
@@ -291,16 +291,16 @@ head metadata =
                 Metadata.BlogIndex ->
                     Seo.summaryLarge
                         { canonicalUrlOverride = Nothing
-                        , siteName = "elm-pages"
+                        , siteName = "Nashville Tenants Union"
                         , image =
-                            { url = images.iconPng
-                            , alt = "elm-pages logo"
+                            { url = images.logos.logoLight
+                            , alt = "Nashville Tenants Union logo"
                             , dimensions = Nothing
                             , mimeType = Nothing
                             }
                         , description = siteTagline
                         , locale = Nothing
-                        , title = "elm-pages blog"
+                        , title = "Nashville Tenants Union blog"
                         }
                         |> Seo.website
            )
@@ -308,9 +308,9 @@ head metadata =
 
 canonicalSiteUrl : String
 canonicalSiteUrl =
-    "https://elm-pages-starter.netlify.com"
+    "https://nashvilletenantsunion.org"
 
 
 siteTagline : String
 siteTagline =
-    "Starter blog for elm-pages"
+    "One big Nashville union."
