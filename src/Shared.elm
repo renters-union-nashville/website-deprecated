@@ -139,7 +139,7 @@ data =
     DataSource.map Data
         (DataSource.map3 Runtime
             (DataSource.Port.get "environmentVariable"
-                (Encode.string "VERSION")
+                (Encode.string "COMMIT_REF")
                 Runtime.decodeCodeVersion
             )
             (DataSource.Port.get "today" (Encode.string "meh") Runtime.decodeDate)
