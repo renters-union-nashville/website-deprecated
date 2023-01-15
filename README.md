@@ -7,13 +7,13 @@ Under construction.
 Git clone it:
 
 ```
-git clone git@github.com:nashville-tenants-union/website.git
+git clone git@github.com:renters-union-nashville/website.git
 ```
 
 Then install and run the dev server
 
 ```
-cd nashville-tenants-union
+cd renters-union-nashville
 npm install
 npm start # starts a local dev server using `elm-pages develop`
 ```

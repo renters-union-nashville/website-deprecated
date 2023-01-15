@@ -7,7 +7,7 @@ let
   caBundle = "${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt";
 
 in pkgs.mkShell {
-  name = "nashville-tenants-union";
+  name = "renters-union-nashville";
   buildInputs = dependencies.shellInputs;
   nativeBuildInputs = [ pkgs.autoreconfHook ];
   shellHook = ''

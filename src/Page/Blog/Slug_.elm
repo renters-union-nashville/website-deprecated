@@ -203,7 +203,7 @@ head static =
             , datePublished = Date.toIsoString metadata.published
             , mainEntityOfPage =
                 StructuredData.softwareSourceCode
-                    { codeRepositoryUrl = "https://github.com/nashville-tenants-union/website"
+                    { codeRepositoryUrl = "https://github.com/renters-union-nashville/website"
                     , description = "A free website that keeps the people informed about housing and evictions."
                     , author = "Greg Ziegan"
                     , programmingLanguage = StructuredData.elmLang
