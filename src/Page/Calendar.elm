@@ -44,7 +44,7 @@ data =
 
 
 title =
-    "Nashville Tenants Union | Calendar"
+    "Renters Union Nashville | Calendar"
 
 
 head :
@@ -53,7 +53,7 @@ head :
 head static =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "Nashville Tenants Union"
+        , siteName = "Renters Union Nashville"
         , image = Logo.smallImage
         , description = "Organize with the union!"
         , locale = Nothing

@@ -161,7 +161,7 @@ sortByPublished articles =
 
 
 title =
-    "Nashville Tenants Union | Blog"
+    "Renters Union Nashville | Blog"
 
 
 view :
@@ -190,7 +190,7 @@ view maybeUrl sharedModel model staticPayload =
                         , Font.bold
                         , Font.center
                         ]
-                        [ text "Nashville Tenants Union" ]
+                        [ text "Renters Union Nashville" ]
                     , paragraph
                         [ Font.center
                         , Font.size 20
@@ -229,7 +229,7 @@ head : StaticPayload Data {} -> List Head.Tag
 head staticPayload =
     Seo.summary
         { canonicalUrlOverride = Nothing
-        , siteName = "Nashville Tenants Union"
+        , siteName = "Renters Union Nashville"
         , image = Logo.smallImage
         , description = blogDescription
         , locale = Just "en-us"

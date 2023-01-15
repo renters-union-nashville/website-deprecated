@@ -95,7 +95,7 @@ logo page =
             [ headerLink [ alignLeft ]
                 (page.route == Just Index)
                 { url = "/"
-                , label = Element.paragraph [ width fill ] [ Element.text "NASHVILLE TENANTS UNION" ]
+                , label = Element.paragraph [ width fill ] [ Element.text "Renters Union Nashville" ]
                 }
             ]
         ]

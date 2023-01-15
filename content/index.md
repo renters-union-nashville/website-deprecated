@@ -1,5 +1,5 @@
 ---
-title: Nashville Tenants Union
+title: Renters Union Nashville
 type: page
 ---
 

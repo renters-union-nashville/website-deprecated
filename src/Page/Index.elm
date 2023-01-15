@@ -63,8 +63,8 @@ head static =
         (StructuredData.aboutPage
             { title = metadata.title
             , description = metadata.description
-            , author = StructuredData.person { name = "Nashville Tenants Union" }
-            , publisher = StructuredData.person { name = "Nashville Tenants Union" }
+            , author = StructuredData.person { name = "Renters Union Nashville" }
+            , publisher = StructuredData.person { name = "Renters Union Nashville" }
             , url = Site.config.canonicalUrl ++ Path.toAbsolute static.path
             , imageUrl = metadata.image
             , lastReviewed = Date.toIsoString metadata.lastReviewed
@@ -79,7 +79,7 @@ head static =
         )
         :: (Seo.summary
                 { canonicalUrlOverride = Nothing
-                , siteName = "Nashville Tenants Union"
+                , siteName = "Renters Union Nashville"
                 , image = Logo.smallImage
                 , description = metadata.description
                 , locale = Just "en-us"

@@ -212,7 +212,7 @@ head static =
         )
         :: (Seo.summaryLarge
                 { canonicalUrlOverride = Nothing
-                , siteName = "Nashville Tenants Union"
+                , siteName = "Renters Union Nashville"
                 , image =
                     { url = metadata.image
                     , alt = metadata.description

@@ -9,7 +9,7 @@ import Svg.Attributes as SvgAttr
 
 smallImage =
     { url = [ "images", "logos", "logo-light-small.png" ] |> Path.join |> Pages.Url.fromPath
-    , alt = "Nashville Tenants Union logo"
+    , alt = "Renters Union Nashville logo"
     , dimensions = Just { width = 100, height = 100 }
     , mimeType = Just "png"
     }

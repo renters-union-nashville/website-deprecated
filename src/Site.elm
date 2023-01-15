@@ -42,14 +42,14 @@ head static =
 
 canonicalUrl : String
 canonicalUrl =
-    "https://nashvilletenantsunion.org"
+    "https://runashville.org"
 
 
 manifest : Data -> Manifest.Config
 manifest static =
     Manifest.init
-        { name = "Nashville Tenants Union"
-        , description = "Nashville Tenants Union - " ++ tagline
+        { name = "Renters Union Nashville"
+        , description = "Renters Union Nashville - " ++ tagline
         , startUrl = Route.Index |> Route.toPath
         , icons =
             [ icon webp 192
