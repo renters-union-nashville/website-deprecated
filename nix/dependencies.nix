@@ -16,7 +16,8 @@ in rec {
   [
     niv
     pkgs.jq
-    pkgs.nodejs-14_x
+    pkgs.nodejs-18_x
+    pkgs.nodePackages.node-gyp
   ];
 
   frontendTools =
@@ -25,7 +26,7 @@ in rec {
     pkgs.elmPackages.elm-test
     pkgs.elmPackages.elm-format
     pkgs.elmPackages.elm-optimize-level-2
-    pkgs.elmPackages.elm-review
+    pkgs.elmPackages.elm-json
   ];
 
   # Needed for a development nix shell
