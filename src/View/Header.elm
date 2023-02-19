@@ -89,15 +89,6 @@ logo page =
             , inFront (el [ paddingXY 0 10 ] (Logo.resizableNoText { width = 100, height = 100 }))
             ]
             []
-        , column
-            [ width (fillPortion 1)
-            ]
-            [ headerLink [ alignLeft ]
-                (page.route == Just Index)
-                { url = "/"
-                , label = Element.paragraph [ width fill ] [ Element.text "Renters Union Nashville" ]
-                }
-            ]
         ]
 
 

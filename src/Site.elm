@@ -88,4 +88,4 @@ cloudinaryIcon :
     -> Int
     -> Pages.Url.Url
 cloudinaryIcon mimeType width =
-    Cloudinary.urlSquare "author/union.png" (Just mimeType) width
+    Cloudinary.urlSquare "logos/logo.svg" (Just mimeType) width

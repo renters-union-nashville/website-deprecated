@@ -14,6 +14,6 @@ type alias Author =
 union : Author
 union =
     { name = "Renters Union Nashville"
-    , avatar = Cloudinary.urlSquare "author/union.png" Nothing 140
+    , avatar = Cloudinary.urlSquare "logso/logo.svg" Nothing 140
     , bio = "One big Nashville union."
     }
