@@ -44,7 +44,7 @@ You and I can achieve these goals by uniting through shared struggles as the Ren
 
 ## Comrade
 
-![Comrade](./images/handbook/comrade.png)
+![Comrade](/images/handbook/comrade.png)
 
 ## Getting to Know Your Neighbors
 
