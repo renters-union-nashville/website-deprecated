@@ -44,7 +44,7 @@ You and I can achieve these goals by uniting through shared struggles as the Ren
 
 ## Comrade
 
-![Comrade](/images/handbook/comrade.png)
+![When something bothers you, be a COMRADE. C: Confront yourself first O: Organize your thoughts M: Motivate each other to do better R: Respect each other's capacity A: Ask for help early, and often D: De-escalate whenever possible E: Express your needs and feelings clearly](/images/handbook/comrade.png)
 
 ## Getting to Know Your Neighbors
 
