@@ -98,13 +98,13 @@ When you are doing your walk-through make sure to make a list and to take photos
 ## Readings About Housing
 
 1. [Stomp Out Slumlords: NO JOB, NO RENT: 10 months of organizing the tenant struggle](https://www.stompoutslumlords.org/wp-content/uploads/2021/02/No-Job-No-Rent-Stomp-Out-Slumlords-Feb-2021-Report-1.pdf)
-1. Secrets of a Successful Organizer
-1. No Shortcuts
+1. [Secrets of a Successful Organizer](https://labornotes.org/secrets)
+1. [No Shortcuts](https://janemcalevey.com/book/no-shortcuts-organizing-for-power-in-the-new-gilded-age/)
 1. [The High Cost of Capitalism](https://reddoorcollective.org/blog/high-cost-of-capitalism)
-1. The Permanent Crisis of Housing - DAVID MADDEN / PETER MARCUSE
-1. Organizing tenants in the rentier society - https://roarmag.org/essays/organizing-tenants-rentier-society/
-1. Why Bad Men Love Real Estate - https://www.currentaffairs.org/2018/05/why-bad-men-love-real-estate
-1. Crown Heights Tenant Union: Building Power One Building at a Time - https://matunion.org/wp-content/uploads/2020/03/Crown-Heights-Tenant-Union_-Building-Power-One-Building-at-a-Time-_-The-Indypendent.pdf
+1. [The Permanent Crisis of Housing - DAVID MADDEN / PETER MARCUSE](https://jacobin.com/2016/10/housing-crisis-rent-landlords-homeless-affordability#:~:text=Nationwide%2C%20nearly%20half%20of%20all,half%20of%20all%20rural%20renters.)
+1. [Organizing tenants in the rentier society](https://roarmag.org/essays/organizing-tenants-rentier-society/)
+1. [Why Bad Men Love Real Estate](https://www.currentaffairs.org/2018/05/why-bad-men-love-real-estate)
+1. [Crown Heights Tenant Union: Building Power One Building at a Time](https://matunion.org/wp-content/uploads/2020/03/)
 1. [Critical Role of Renters](https://assets.website-files.com/61ccce7fbdaf706120c7c25f/63235ceacbd8751a9e620f70_Critical%20Role%20of%20Renters.pdf)
 1. [Communities over Commodities](https://drive.google.com/file/d/1chGXRKcJBo8pGQfGZ0fqUvxGIFp0ewgm/view?usp=sharing)
 
