@@ -48,16 +48,21 @@ view page =
         [ headerLink []
             (page.route == Just Index)
             { url = "/"
-            , label = Element.text "Who we are"
+            , label = Element.text "WHO WE ARE"
             }
         , headerLink []
             (page.route == Just Calendar)
             { url = "/calendar"
-            , label = Element.text "Calendar"
+            , label = Element.text "CALENDAR"
+            }
+        , headerLink []
+            (page.route == Just Handbook)
+            { url = "/handbook"
+            , label = Element.text "HANDBOOK"
             }
         , headerLink []
             (page.route == Just Blog)
             { url = "/blog"
-            , label = Element.text "Blog"
+            , label = Element.text "BLOG"
             }
         ]

@@ -136,6 +136,11 @@ view { showMobileMenu, toggleMobileMenu } page =
                                 , label = Element.text "CALENDAR"
                                 }
                             , headerLink []
+                                (page.route == Just Handbook)
+                                { url = "/handbook"
+                                , label = Element.text "HANDBOOK"
+                                }
+                            , headerLink []
                                 (page.route == Just Blog)
                                 { url = "/blog"
                                 , label = Element.text "BLOG"
