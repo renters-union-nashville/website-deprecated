@@ -65,7 +65,7 @@ head static =
 calendarIFrame =
     Element.html
         (iframe
-            [ Attr.src "https://calendar.google.com/calendar/embed?src=rentersunionnashville%40gmail.com&ctz=America%2FChicago"
+            [ Attr.src "https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&title=Renters%20Union%20Nashville&src=NWY1NWRmZTc2MGU1ZTI5MDExNzZiZjZjMjYwMjQ2YWZkY2E0ZmY2ZTRhN2M1ZDljMGU0MTM3M2RjNDk3NDNlNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161"
             , Attr.style "border" "solid 1px #777"
             , Attr.width 800
             , Attr.height 600
