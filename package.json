@@ -11,9 +11,9 @@
     "review": "elm-review"
   },
   "devDependencies": {
-    "elm-optimize-level-2": "^0.3.5",
-    "elm-pages": "^2.1.12",
-    "elm-review": "^2.9.1",
-    "elm-tooling": "^1.12.0"
+    "elm-optimize-level-2": "^0.1.5",
+    "elm-pages": "2.1.9",
+    "elm-review": "^2.5.5",
+    "elm-tooling": "^1.4.0"
   }
 }
